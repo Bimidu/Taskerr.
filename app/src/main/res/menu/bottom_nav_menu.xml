@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/baseline_playlist_add_check_circle_24"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/navigation_tasks"
+        android:icon="@drawable/baseline_explore_24"
+        android:title="@string/explore" />
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/baseline_notifications_24"
+        android:title="@string/notifications" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="@string/profile" />
+</menu>
