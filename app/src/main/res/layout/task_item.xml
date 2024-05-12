@@ -9,7 +9,7 @@
     android:backgroundTint="@color/subtle">
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/task_status"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
@@ -19,7 +19,7 @@
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/task_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
@@ -29,7 +29,7 @@
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/delete"
         android:layout_width="20dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
