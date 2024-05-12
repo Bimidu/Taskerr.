@@ -11,11 +11,17 @@ import com.example.labexam04.R
 class TaskViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
     var taskStatusCheckBox: CheckBox = itemView.findViewById(R.id.task_status)
     var taskNameTextView: TextView = itemView.findViewById(R.id.task_name)
+    var taskDescriptionTextView: TextView = itemView.findViewById(R.id.task_description)
+    var taskDateTextView: TextView = itemView.findViewById(R.id.task_date)
+    var taskTimeTextView: TextView = itemView.findViewById(R.id.task_time)
     var deleteButton: Button = itemView.findViewById(R.id.delete)
 
     init {
         taskStatusCheckBox = itemView.findViewById(R.id.task_status)
         taskNameTextView = itemView.findViewById(R.id.task_name)
+        taskDescriptionTextView = itemView.findViewById(R.id.task_description)
+        taskDateTextView = itemView.findViewById(R.id.task_date)
+        taskTimeTextView = itemView.findViewById(R.id.task_time)
         deleteButton = itemView.findViewById(R.id.delete)
     }
 }

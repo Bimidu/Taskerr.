@@ -8,5 +8,6 @@ class TaskRepository (
 ) {
     suspend fun insert(task: Task) = db.getTaskDao().insertTask(task)
     suspend fun delete(task:Task) = db.getTaskDao().deleteTask(task)
+    suspend fun update(task:Task) = db.getTaskDao().updateTask(task)
     fun getAllTaskItems():List<Task> = db.getTaskDao().getAllTaskItems()
 }

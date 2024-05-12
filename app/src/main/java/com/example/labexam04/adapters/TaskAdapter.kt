@@ -37,6 +37,12 @@ class TaskAdapter(items:List<Task>, repository: TaskRepository,
 
         holder.taskNameTextView.text = items.get(position).item
 
+        holder.taskDescriptionTextView.text = items.get(position).itemDescription
+
+        holder.taskDateTextView.text = items.get(position).itemDate
+
+        holder.taskTimeTextView.text = items.get(position).itemTime
+
         holder.deleteButton.setOnClickListener{
             val isChecked = holder.taskStatusCheckBox.isChecked
             if(isChecked) {
