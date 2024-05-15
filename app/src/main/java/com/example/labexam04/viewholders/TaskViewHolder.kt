@@ -14,6 +14,7 @@ class TaskViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
     var taskDescriptionTextView: TextView = itemView.findViewById(R.id.task_description)
     var taskDateTextView: TextView = itemView.findViewById(R.id.task_date)
     var taskTimeTextView: TextView = itemView.findViewById(R.id.task_time)
+    var updateButton: Button = itemView.findViewById(R.id.update)
     var deleteButton: Button = itemView.findViewById(R.id.delete)
 
     init {
@@ -22,6 +23,7 @@ class TaskViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         taskDescriptionTextView = itemView.findViewById(R.id.task_description)
         taskDateTextView = itemView.findViewById(R.id.task_date)
         taskTimeTextView = itemView.findViewById(R.id.task_time)
+        updateButton = itemView.findViewById(R.id.update)
         deleteButton = itemView.findViewById(R.id.delete)
     }
 }

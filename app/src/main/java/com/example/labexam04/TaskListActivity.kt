@@ -56,35 +56,7 @@ class TaskListActivity : AppCompatActivity() {
             displayDialog(repository)
         }
 
-        val bottomNav = findViewById<BottomNavigationView>(R.id.bottom_navigation)
-        bottomNav.selectedItemId = R.id.navigation_tasks
-        bottomNav.setOnNavigationItemSelectedListener { item ->
-            when (item.itemId) {
-                R.id.navigation_home -> {
 
-                    val intent = Intent(this, MainActivity::class.java)
-                    startActivity(intent)
-
-                    true
-                }
-                R.id.navigation_tasks -> {
-                    val intent = Intent(this, TaskListActivity::class.java)
-                    startActivity(intent)
-                    true
-                }
-                R.id.navigation_notifications -> {
-                    val intent = Intent(this, MainActivity::class.java)
-                    startActivity(intent)
-                    true
-                }
-                R.id.navigation_profile -> {
-                    val intent = Intent(this, MainActivity::class.java)
-                    startActivity(intent)
-                    true
-                }
-                else -> false
-            }
-        }
     }
 
 
